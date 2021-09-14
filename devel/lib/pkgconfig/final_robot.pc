@@ -1,0 +1,8 @@
+prefix=/home/kastalli/Documents/ROS_PROJECT_SOFIA/devel
+
+Name: final_robot
+Description: Description of final_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

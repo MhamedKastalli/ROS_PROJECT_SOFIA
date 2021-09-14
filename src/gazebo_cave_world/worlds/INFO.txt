@@ -1,0 +1,6 @@
+
+--------------------------INFO ON FOLDER--------------------------------------------------------------------
+WORLD CONTAINS:
+1/ CAVE_WORLD.WORLD ------>WORLD FILE OF LARGEST CAVE 
+2/CAVE.WORLD -----> WORLD FILE OF CROSS TYPE CAVE
+3/ MODELS------> FOLDER CONTAINING MODELS USED TO CREATE ENVIRONMENTS OF EACH WORLD

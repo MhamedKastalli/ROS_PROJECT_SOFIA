@@ -1,0 +1,8 @@
+prefix=/home/kastalli/Documents/ROS_PROJECT_SOFIA/install
+
+Name: scan_algo
+Description: Description of scan_algo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

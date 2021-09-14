@@ -1,0 +1,8 @@
+prefix=/home/kastalli/Documents/ROS_PROJECT_SOFIA/install
+
+Name: jane
+Description: Description of jane
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

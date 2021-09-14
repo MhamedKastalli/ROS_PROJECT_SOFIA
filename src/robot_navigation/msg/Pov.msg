@@ -1,0 +1,15 @@
+time stamp
+string frame_id
+string Direction
+float64 Ceiling_height_near
+float64 Ceiling_height_mid
+float64 Ceiling_height_far
+float64 Wall_distance_near
+float64 Wall_distance_mid
+float64 Wall_distance_far
+float64 Floor_distance
+float64 Floor_slope
+string Floor_type
+string Wall_type
+string Ceiling_type
+

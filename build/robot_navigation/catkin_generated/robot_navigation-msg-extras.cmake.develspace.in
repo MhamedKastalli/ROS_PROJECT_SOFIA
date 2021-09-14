@@ -1,0 +1,2 @@
+set(robot_navigation_MESSAGE_FILES "/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/msg/Pov.msg;/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/msg/Environment.msg;/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/msg/Map.msg")
+set(robot_navigation_SERVICE_FILES "/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/srv/Joint_state_info.srv;/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/srv/cmd_vel_pub.srv;/home/kastalli/Documents/ROS_PROJECT_SOFIA/src/robot_navigation/srv/environment_process.srv")

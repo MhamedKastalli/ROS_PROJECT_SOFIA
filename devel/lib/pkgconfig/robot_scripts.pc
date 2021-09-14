@@ -1,0 +1,8 @@
+prefix=/home/kastalli/Documents/ROS_PROJECT_SOFIA/devel
+
+Name: robot_scripts
+Description: Description of robot_scripts
+Version: 0.0.0
+Cflags: -I/home/kastalli/Documents/ROS_PROJECT_SOFIA/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

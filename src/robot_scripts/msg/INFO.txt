@@ -1,0 +1,3 @@
+
+--------------------------INFO ON FOLDER-----------------------------------------------------------------------MSG CONTAINS :
+CUSTOM MESSAGES FOR LIDAR AGGREGATION.CPP 

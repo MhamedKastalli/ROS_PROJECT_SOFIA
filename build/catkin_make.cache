@@ -1,0 +1,2 @@
+gazebo_cave_world:main_launch:octomap_mapping/octomap_mapping:octomap_mapping/octomap_server:robot_navigation:robot_scripts:robot_wheels:scan_algo:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/kastalli/Documents/ROS_PROJECT_SOFIA/devel -DCMAKE_INSTALL_PREFIX=/home/kastalli/Documents/ROS_PROJECT_SOFIA/install -G Unix Makefiles

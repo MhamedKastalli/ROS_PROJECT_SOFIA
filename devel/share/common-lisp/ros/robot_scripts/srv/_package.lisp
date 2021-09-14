@@ -1,0 +1,15 @@
+(cl:defpackage robot_scripts-srv
+  (:use )
+  (:export
+   "LIDARTURN"
+   "<LIDARTURN-REQUEST>"
+   "LIDARTURN-REQUEST"
+   "<LIDARTURN-RESPONSE>"
+   "LIDARTURN-RESPONSE"
+   "LIDAR_SCAN"
+   "<LIDAR_SCAN-REQUEST>"
+   "LIDAR_SCAN-REQUEST"
+   "<LIDAR_SCAN-RESPONSE>"
+   "LIDAR_SCAN-RESPONSE"
+  ))
+

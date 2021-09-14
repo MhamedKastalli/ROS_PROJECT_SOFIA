@@ -1,0 +1,4 @@
+
+--------------------------INFO ON FOLDER--------------------------------------------------------------------
+MAIN LAUNCH CONTAINS:
+1/ WORLD_ROBOT_SERVICE---->MAIN LAUNCH FILE THAT LAUNCHES WORLD+ROBOT+SERVICES NEEDED FOR  AUTONOMOUS NAVIGATION ONLY

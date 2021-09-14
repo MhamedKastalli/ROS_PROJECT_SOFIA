@@ -1,0 +1,5 @@
+
+--------------------------INFO ON FOLDER--------------------------------------------------------------------
+WORLD CONTAINS:
+1/ CAVE_WORLD.LAUNCH ------>LAUNCH FILE OF LARGEST CAVE 
+2/CAVE.LAUNCH -----> LAUNCH FILE OF CROSS TYPE CAVE

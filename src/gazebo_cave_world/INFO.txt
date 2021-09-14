@@ -1,0 +1,5 @@
+
+--------------------------INFO ON FOLDER--------------------------------------------------------------------
+GAZEBO_CAVE_WORLD CONTAINS:
+1/ WORLD FOLDER ------> WORLD FILES
+2/LAUNCH FOLDER -----> LAUNCH FILES

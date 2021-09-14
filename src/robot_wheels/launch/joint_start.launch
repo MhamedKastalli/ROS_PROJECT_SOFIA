@@ -1,0 +1,38 @@
+<launch>  
+<param name="robot_description" textfile="$(find robot_wheels)/urdf/robot_wheels.urdf" />
+ 
+<node
+    name="urdf_spawner"
+    pkg="gazebo_ros"
+    type="spawn_model"
+    respawn="false"
+    output="screen"
+    args="-urdf -model robot_wheels -param robot_description -x 2 -y -20 -z 0.2 -Y 3.14"
+/>
+<rosparam file="$(find robot_wheels)/config/robot_control.yaml" command="load" />
+<node
+    name="controller_spawner"
+    pkg="controller_manager"
+    type="spawner"
+    ns="/robot_wheels"
+    respawn="false"
+    output="screen"
+    args="joint_lidar_position_controller joint_state_controller"
+/>
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="joint_states" to="/robot_wheels/joint_states" />
+    </node>
+
+
+<node
+    name="joint_state_publisher" 
+    pkg="joint_state_publisher" 
+    type="joint_state_publisher" />
+ <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find robot_wheels)/urdf/rviz"
+    />
+
+</launch>

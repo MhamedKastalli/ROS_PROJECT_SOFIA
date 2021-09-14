@@ -1,0 +1,8 @@
+
+--------------------------INFO ON FOLDER----------------------------------------------------------------
+ROBOT WHEELSCONTAINS:
+PACKAGE OF ROBOT DEFINITION:
+URDF ------>URDF FILE OF ROBOT
+MESHES-------> MESHES OF EACH LINK OF THE ROBOT
+LAUNCH -------> LAUNCH FILE OF ROBOT 
+CONFIG ---------->  .YAML FILE OF ROS CONTROLLERS OF JOINTS

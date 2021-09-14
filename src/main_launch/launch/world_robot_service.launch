@@ -1,0 +1,15 @@
+<launch>
+					<!-- WORLD  -->
+	<include file="$(find gazebo_cave_world)/launch/cave_world.launch" />
+	<!--<include file="$(find gazebo_cave_world)/launch/cave.launch" />-->
+					<!-- ROBOT  -->
+	<include file="$(find robot_wheels)/launch/joint_start.launch" />
+					<!-- SERVICES  -->
+	<node name="lidar_scan_nav" pkg="robot_scripts" type="lidar_scan_server_node.py"  />
+	<node name="joint_lidar" pkg="robot_navigation" type="joint_state_server_node.py"   />
+	<node name="cmd_vel_node" pkg="robot_navigation" type="cmd_vel_server_node.py" />
+	<node name="path_robot_recorder" pkg="robot_navigation" type="path_recorder.py" />
+	<node name="process_laser" pkg="robot_navigation" type="laser_reading.py"  output="screen" launch-prefix="gnome-terminal --command"/>
+	<node name="process_enviro" pkg="robot_navigation" type="environment_process.py" launch-prefix="gnome-terminal --command" />
+
+</launch>

@@ -1,0 +1,10 @@
+digraph G {
+"stand" -> "camera"[label=" Broadcaster: /rob_st_pub\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "stand"[label=" Broadcaster: /rob_st_pub\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: /gazebo\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"stand" -> "lidar"[label=" Broadcaster: /rob_st_pub\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 6614.605\nOldest transform: 6609.655\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 6614.636"[ shape=plaintext ] ;
+}->"odom";
+}

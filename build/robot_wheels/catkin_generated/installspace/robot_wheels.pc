@@ -1,0 +1,8 @@
+prefix=/home/kastalli/Documents/ROS_PROJECT_SOFIA/install
+
+Name: robot_wheels
+Description: Description of robot_wheels
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
